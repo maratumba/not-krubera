@@ -6,6 +6,19 @@ body {
   color: #fff;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 80%;
+  text-align: center;
+}
+
 article {
   border-radius: 5px;
   margin: 1rem 0 1rem 0;
@@ -19,11 +32,6 @@ article {
   }
   
 }
-
-main {
-  width: 100%;
-}
-
 
 main {
   max-width: 600px;
