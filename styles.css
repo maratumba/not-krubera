@@ -46,7 +46,7 @@ article {
 @media screen and (min-width: 600px) {
   article {
     font-size: 150%;
-    padding: 4rem 2rem 4rem 2rem;
+    padding: 4rem 2rem 1rem 2rem;
   }
   .main-container {
     padding-left: 2rem;
@@ -90,6 +90,7 @@ a {
   display: flex;
   justify-content: start;
   align-items: center;
+  padding-top: 2rem;
   font-size: 80%;
 }
 
