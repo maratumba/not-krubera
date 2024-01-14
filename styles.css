@@ -4,6 +4,16 @@
 body {
   background-color: #2f2a2a;
   color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* Rest of your CSS code */
+
+}
+
+
+h2 {
+  font-size: 2rem;
+  margin: 0;
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
 }
 
 img {
@@ -11,7 +21,14 @@ img {
 }
 
 figure {
-  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+figure-in-table {
+  margin: 0 !important;
 }
 
 figcaption {
@@ -65,4 +82,12 @@ a {
 
 .semi-transparent {
   opacity: 0.5;
+}
+
+.info-box {
+  background-color: #3b3535;
+  border: 1px solid #211c215c;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 80%;
 }
