@@ -1,0 +1,45 @@
+<!-- FILEPATH: /Users/yamanozakin/Developer/personal/nothatisnotellisonscave/thumb.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .grid-container {
+      margin-top: 5rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 0px;
+    }
+
+    .thumbnail {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .cell {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="cell">
+      <div class="thumbnail" style="background-image: url('static/media/fantastic-pit-2.jpg');"></div>
+    </div>
+    <div class="cell">
+      <div class="thumbnail" style="background-image: url('static/media/mystery-falls-1.jpg');"></div>
+    </div>
+    <div class="cell">
+      <div class="thumbnail" style="background-image: url('static/media/fantastic-pit.jpg');"></div>
+    </div>
+    <div class="cell">
+      <div class="thumbnail" style="background-image: url('static/media/mystery-falls-2.jpg');"></div>
+    </div>
+  </div>
+</body>
+</html>
