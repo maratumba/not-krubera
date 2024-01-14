@@ -85,9 +85,10 @@ a {
 }
 
 .info-box {
-  background-color: #3b3535;
-  border: 1px solid #211c215c;
+  /* background-color: #3b3535; */
+  /* border: 1px solid #211c215c; */
   padding: 0.5rem 1rem 0.5rem 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
   font-size: 80%;
+  border-radius: 5px;
 }
